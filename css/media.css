@@ -1,0 +1,117 @@
+/* ===============================XXL================================= */
+
+@media (min-width: 1400px) {
+    .container{
+        width: 1140px;
+    }
+    /* ********************header********************* */
+    header .header-content .header-logo{
+        margin-left: -8px;
+    }
+    header .header-content .header-nav{
+        margin-right: 120px;
+    }
+    header .header-content .header-language{
+        margin-right: 45px;
+    }
+    header .header-content .btn-3{
+        margin-right: 0px;
+    }
+    /* ********************main********************* */
+    main .hero .hero-content .hero-title{
+        padding-right: 95px;
+    }
+}
+
+/* ===================================XL================================= */
+
+@media (min-width: 1200px) and (max-width: 1399px){
+    main .container{
+        width: 1140px;
+        padding: 0px;
+    }
+    /* ********************header********************* */
+    header .header-content .header-logo{
+        margin-left: 20px;
+    }
+    header .header-content .btn-3{
+        margin-right: 20px;
+    }
+    header .header::before{
+        display: none;
+    }
+    header .header::after{
+        display: none;
+    }
+    /* ********************main********************* */
+    main .hero .hero-content .hero-title{
+        padding-right: 95px;
+    }
+    main .hero .hero-content .hero-btns .btn-2::before{
+        left: 10px;
+    }
+    main .hero .hero-content .hero-btns .btn-2::after{
+        right: 10px;
+    }
+    /* ********************count********************* */
+    section .count .container{
+        margin: 0px 22px;
+    }
+    section .count .container .col-3{
+        padding: 0px 12px;
+    }
+       /* ********************features********************* */
+    section .feature .container{
+        margin: 0px 22px;
+    }
+    section .feature .container .col-4{
+        padding: 0px 12px;
+    }
+           /* ********************deals********************* */
+    section .deals .container{
+        margin: 0px 22px 0px 10px;
+    }
+    section .deals .container .col-12{
+        padding: 0px 12px;
+    }  
+   
+
+}
+
+/* ===================================LG================================= */
+
+@media (min-width: 992px) and (max-width: 1199px){
+    main .container{
+        width: 960px;
+    }
+    /* section .deals .deals-table table{
+        /* overflow-x: visible; */
+    
+    section .deals table{
+        overflow-x: scroll;
+    }
+}
+/* ===================================MD================================= */
+
+@media (min-width: 768px) and (max-width: 991px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+/* ===================================SM================================= */
+
+@media (min-width: 576px) and (max-width: 767px){
+    .container{
+        width: 540px;
+    }
+}
+
+/* ===================================XS================================= */
+
+@media (max-width: 575px){
+    .container{
+        width: 100%;
+        padding: 0px 30px;
+    }
+}
